@@ -34,9 +34,6 @@ ramips_board_detect() {
 	*"Air3GII")
 		name="air3gii"
 		;;
-	*"ALL0239-3G")
-		name="all0239-3g"
-		;;
 	*"ALL0256N (4M)")
 		name="all0256n-4M"
 		;;
@@ -283,6 +280,9 @@ ramips_board_detect() {
 	*"Mi Router 3G")
 		name="mir3g"
 		;;
+	*"Mi Router 4")
+		name="mir4"
+		;;		
 	*"MicroWRT")
 		name="microwrt"
 		;;
@@ -442,6 +442,9 @@ ramips_board_detect() {
 	*"RT-AC51U")
 		name="rt-ac51u"
 		;;
+	*"RT-AC54U")
+		name="rt-ac54u"
+		;;
 	*"RT-G32 B1")
 		name="rt-g32-b1"
 		;;
@@ -585,9 +588,6 @@ ramips_board_detect() {
 		;;
 	*"WL-330N3G")
 		name="wl-330n3g"
-		;;
-	*"WL-341 v3")
-		name="wl-341v3"
 		;;
 	*"WL-351 v1 002")
 		name="wl-351"
